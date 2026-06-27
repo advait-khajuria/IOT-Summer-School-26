@@ -1,10 +1,17 @@
+int blinkCount = 0;
+
 void setup() {
   pinMode(13, OUTPUT);
+  Serial.begin(9600);
 }
 
 void loop() {
   digitalWrite(13, HIGH);
-  delay(1000);
+  delay(500);
   digitalWrite(13, LOW);
-  delay(1000);
+  delay(500);
+
+  blinkCount++;
+  Serial.print("Blink Count: ");
+  Serial.println(blinkCount);
 }
