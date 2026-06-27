@@ -1,14 +1,41 @@
-# LED Blink
+# LED Blink with Potentiometer Control
 
 ## Objective
-Blink the built-in LED connected to digital pin 13.
+To control the blinking speed of an LED using a potentiometer while displaying real-time values on the Serial Monitor.
 
-## Components Required
+## Hardware Required
 - Arduino UNO
+- LED
+- 220Ω Resistor
+- 10kΩ Potentiometer
+- Breadboard
+- Jumper Wires
 - USB Cable
 
-## Connections
-Uses the built-in LED connected to pin 13. No external wiring is required.
+## Circuit Description
+The LED is connected to digital pin 13 through a current-limiting resistor. The potentiometer is connected between 5V and GND, with its middle pin connected to analog pin A0. The Arduino reads the analog value and adjusts the LED blinking speed accordingly.
+
+## Software
+- Arduino IDE
+- Tinkercad
+
+## Program Features
+- LED blinking
+- Serial Monitor output
+- Adjustable blink speed
+- Analog input using potentiometer
 
 ## Expected Output
-The built-in LED turns ON for 1 second and OFF for 1 second continuously.
+- The LED blinks continuously.
+- Rotating the potentiometer changes the blinking speed.
+- The Serial Monitor displays the potentiometer value and calculated delay.
+
+## Troubleshooting
+- Verify all wiring connections.
+- Ensure the resistor is connected correctly.
+- Check that the potentiometer middle pin is connected to A0.
+- Confirm the correct board and port are selected before uploading.
+
+## Author
+Advait Khajuria
+IIT Jammu Summer School 2026
