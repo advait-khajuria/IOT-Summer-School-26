@@ -1,0 +1,19 @@
+# Arduino build files
+*.hex
+*.elf
+
+# Build folders
+build/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
