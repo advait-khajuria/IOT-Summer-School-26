@@ -1,3 +1,9 @@
+/*
+Author: Advait Khajuria
+Date: 27 June 2026
+Project: LED Blink with Potentiometer Speed Control
+Description: Controls LED blink speed using a potentiometer and displays values on the Serial Monitor.
+*/
 int ledPin = 13;
 int potPin = A0;
 int blinkDelay;
