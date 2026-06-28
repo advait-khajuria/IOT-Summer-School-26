@@ -1,0 +1,11 @@
+analogRead() is used to read an analog voltage from a sensor through the analog input pins (A0–A5). It converts the voltage into a digital value between 0 and 1023.
+
+Example: Reading the value from an LDR (Light Dependent Resistor) or temperature sensor.
+
+analogWrite() is used to generate a PWM (Pulse Width Modulation) signal on PWM-enabled digital pins. It outputs a value between 0 and 255 to control the average power delivered to a device.
+
+PWM (Pulse Width Modulation) is a technique that rapidly switches a digital signal ON and OFF to simulate different voltage levels. It is commonly used to control LED brightness and motor speed.
+
+IoT Examples:
+• analogRead(): Reading soil moisture sensor data for a smart irrigation system.
+• analogWrite(): Adjusting the brightness of a street light or controlling the speed of a DC motor in an IoT automation system.
